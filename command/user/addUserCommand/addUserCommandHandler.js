@@ -1,6 +1,6 @@
 const Enums = require('../../../util/constants/enums');
 
-class AddUserCommandHandler extends CommandHandler {
+class AddUserCommandHandler extends AddCommandHandler {
     constructor() {
         super(unitOfWork);
     }

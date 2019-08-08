@@ -8,6 +8,7 @@ module.exports = {
     ADD_USER_POST_COMMAND: "AddUserPostCommand",
     UPDATE_USER_COMMAND: "UpdateUserCommand",
     UPDATE_USER_POST_COMMAND: "UpdateUserPostCommand",
+    DELETE_USER_COMMAND: "DeleteUserCommand",
 
     // Controllers
     USER_CONTROLLER: "userController",

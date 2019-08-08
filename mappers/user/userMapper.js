@@ -9,7 +9,7 @@ class UserMapper {
         entity.email = model.email;
     }
 
-    mapToApiModel(model, ntity) {
+    mapToApiModel(model, entity) {
         model.firstName = entity.firstName;
         model.lastName = entity.lastName;
         model.email = entity.email;

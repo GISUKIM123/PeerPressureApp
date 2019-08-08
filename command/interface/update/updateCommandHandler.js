@@ -1,8 +1,10 @@
 class UpdateCommandHandler {
-    constructor() {}
+    constructor(unitOfWork) {
+        this.unitOfWork = unitOfWork;
+    }
 
-    onHandle() {
-        
+    onHandle(entityName, context) {
+        this.unitOfWork.getRepository(entityName).update(context);
     }
 }
 

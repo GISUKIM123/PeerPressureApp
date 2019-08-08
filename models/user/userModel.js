@@ -5,11 +5,11 @@ class User {
         this.email      = email;
     }
 
-    static jsonToUser(json) {
+    static fromJSON(json) {
         return new User( json.firstName,
                          json.lastName,
                          json.email );
     }
 }
 
-module.exports = UserModel;
+module.exports = User;
